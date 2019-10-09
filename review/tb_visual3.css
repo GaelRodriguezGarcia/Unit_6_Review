@@ -14,15 +14,34 @@
 */
 
 /* HTML Styles */
-
+html{
+   background-image: url(tb_back5.png);
+}
 
 
 /* Page Body Styles */
-
+body{
+   border-style: solid;
+   color: rgb(169, 130, 88);
+   border-left: 3px;
+   border-right: 3px;
+}
+body{
+   border-right: 3px solid rgb(169, 130, 88);
+   border-left: 3px solid rgb(169, 130, 88);
+   box-shadow: rgb(53, 21, 0) -25px 0px 35px;
+}
 
 
 /* Main Styles */
+main{background: url(tb_back7.png)no-repeat;
+    background-size: 100%;
+    background-position: padding-box;
+    box-shadow: inset rgb(71, 71, 71) 10px 10px 25px, inset rgb(71, 71, 71) -10px -10px 25px;}
 
+main > header h1{
+   text-shadow: rgb(211, 211, 211) 1px 1px 0px,rgba(41, 41, 41, 0.9) 5px 5px 20px;
+}
 
 
 /* Figure Box Styles */
